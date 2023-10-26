@@ -1,0 +1,40 @@
+Read the difference between the Window,document and screen in Java script.
+
+Window:
+
+· window is the execution context and global object for that context's JavaScript
+
+· The window object represents the current browsing context . It holds things like window.location, window.history, window.screen, window.status, or the window.document.
+
+· Window object has two properties to determine the size of the browser window.
+
+· Window.innerWidth. gives the inner width of the browser window (in pixels)
+
+· Window.innerHeight. gives the inner height of the browser window (in pixels)
+
+Document:
+
+· Document contains the DOM, initialized by parsing HTML.
+
+· The Document object represents any web page loaded in the browser and serves as an entry point into the web page’s content, which is the DOM tree.
+
+· When an HTML document is loaded into a web browser , it becomes a document object. It is the root node of the HTML document.
+
+· The document actually gets loaded inside the window object and has properties available to its URL,Cookies.
+
+· We can find the HTML elements by using the below document object methods and change the HTML element contents like style, text, attribute using the below properties:
+
+Find HTML Elements:
+
+document.getElementById(id): Find and return an element by element id.
+
+document.getElementsByClassName(name) : Find and return an element by class name.
+
+Screen
+
+Screen is a small information object about physical screen dimensions of the user device. It can be used to display screen width, height, colorDepth, pixelDepth .
+
+Properties:
+
+screen.width 
+screen.height
